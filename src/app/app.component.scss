@@ -1,0 +1,25 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    &__name-container {
+        display: flex;
+        gap: 24px;
+    }
+
+    &--hobbies {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+
+    &__input {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+        margin: 16px 0px;
+    }
+}
